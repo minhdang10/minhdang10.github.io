@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+#project-modal {
+    #modalProjectSubHeading {
+        font-weight: 500;
+        color: $secondary-font-color;
+    }
+    i {
+        font-size: 2rem;
+    }
+    a {
+        color: $salmon;
+
+        &:hover {
+            color: $salmon-dark;
+        }
+    }
+    h3 {
+        display:block;
+    }
+}
+
+.modal-backdrop {
+    opacity: .9 !important;
+}
