@@ -727,7 +727,7 @@ $(document).ready(() => {
         for (let image of images) {
             let slideImg = '<div class="carousel-item">' +
                 '<img class="w-100 h-100" src="assets/images/projects/' +
-                parentFolder + '/' + image + '.jpg"' + ' alt="' + image + '">' +
+                parentFolder + '/' + image + '.png"' + ' alt="' + image + '">' +
                 '</div>';
             document.getElementById("projectSlides").insertAdjacentHTML('beforeend', slideImg);
         }
@@ -764,95 +764,100 @@ $(document).ready(() => {
                 desc;
 
             switch (e.target.id.toString()) {
-                case "SavingTakeouts":
-                    images = ["home", "mission", "business_owners", "volunteers", "services", "team"],
-                        heading = "SavingTakeouts",
-                        subHeading = "Free business consultation for small restaurants",
-                        desc = "SavingTakeouts’s mission is to provide small businesses a platform to tell their stories beyond their block. Immigrant owned businesses have always found it hard to compete with modern businesses with technological resources. Restaurants that have been in business for decades are rapidly being displaced by gentrification. We believe storytelling and building genuine connections between businesses and consumers through effective marketing will ultimately bring small business brands to new heights.";
+                case "HandDetection":
+                    images = ["fast-rcnn", "faster-rcnn", "hand1", "hand2", "hand3", "preview", "tensorboard"],
+                        heading = "Hand Detection",
+                        subHeading = "Machine Learning Algorithm using OpenCV Library",
+                        desc = "Description1";
 
-                    appendProjectImages("ST", images);
+                    appendProjectImages("hand_detection", images);
                     addText(heading, subHeading, desc);
-                    addWebIcon("https://savingtakeouts.org/");
+                    addGithubIcon("https://github.com/minhdang10/hand-detection-tracking");
+                    addWebIcon("https://drive.google.com/drive/folders/1pNtUs8Nteg_OAot8piNi_c0yhsuZogix?usp=sharing");
 
                     break;
-                case "QueueingSystem":
-                    images = ["issue", "swipe", "text", "wait", "order", "order_video", "order_video2", "queue", "portal", "dashboard", "customize", "reports"]
-                    heading = "Queueing System",
-                        subHeading = "Queue Management and Appointment Scheduling",
-                        desc = "Managing long lines of customers with pen and paper can be a daunting task. With a queueing system, customers can schedule an appointment and receive status updates with ease.";
+                case "DataMining":
+                    images = ["hierarchical_clustering", "kmean_clustering", "knn", "logistic_regression", "preview", "order_video", "order_video2", "queue", "portal", "dashboard", "customize", "reports"]
+                    heading = "Data Mining",
+                        subHeading = "Regression and Machine Learning Algorithms",
+                        desc = "Description2";
 
-                    appendProjectImages("queueing", images);
+                    appendProjectImages("data_mining", images);
                     addText(heading, subHeading, desc);
+                    addGithubIcon("https://github.com/minhdang10/data_mining");
+                    addWebIcon("https://drive.google.com/drive/folders/14XHoSZ9x1gyvI6FvqS9c4vxgL-UGwu2s?usp=sharing");
 
                     break;
-                case "FireDrop":
-                    images = ["home", "drops", "raffle", "merchandise", "about"],
-                        heading = "Fire Drop",
-                        subHeading = "Online Sneaker Marketplace",
-                        desc = "FireDrop is a static website with front-end form validation. I created this as my final project for a web design class at Baruch.";
+                case "DataWarehousing":
+                    images = ["dimension", "kpi1", "kpi2", "kpi3", "kpi4"],
+                        heading = "Weather and Accident Data Warehouse",
+                        subHeading = "Data Warehousing / ETL Process",
+                        desc = "Description3";
 
-                    appendProjectImages("firedrop", images);
+                    appendProjectImages("data_warehousing", images);
                     addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/junh4533/firedrop");
-                    addWebIcon("firedrop-master/index.html");
+                    addWebIcon("https://drive.google.com/drive/folders/1Vy0eQ-_uCF0cmfyoe__tD3pE8hBmbLJJ?usp=sharing");
 
                     break;
-                case "AscendBaruch":
-                    images = ["home", "about", "committees", "eboard"],
-                        heading = "Ascend Baruch",
-                        subHeading = "Pan-Asian Student Organization",
-                        desc = "Ascend Baruch's mission is to be the premier professional organization dedicated to enabling its members, business partners and the community to leverage the leadership and global business potential of Pan-Asians.";
+                case "DatabaseManagement":
+                    images = ["er_diagram", "preview", "schema"],
+                        heading = "Boat Rental Database Management",
+                        subHeading = "E-R Diagram, Schema, SQL & VBA Applications",
+                        desc = "Description4";
 
-                    appendProjectImages("ascend", images);
+                    appendProjectImages("database_management", images);
                     addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/junh4533/ascend");
-                    addWebIcon("https://www.ascendbaruch.org/");
+                    addGithubIcon("https://github.com/minhdang10/boat_rental");
+                    addWebIcon("https://drive.google.com/drive/folders/1X_MDUNR-mcOQEwmLbJA33mZ_3BPSwh4R?usp=sharing");
 
                     break;
-                case "EZDoctDjango":
-                    images = ["home", "dashboard", "profile", "add_user", "search_appointment", "schedule_appointment", "doctor_dashboard", "doctor_appointments", "patient", "django"],
-                        heading = "EZDoct - Django",
-                        subHeading = "Appointment Scheduling",
-                        desc = "After learning the basics of client and server side development, I decided to use a more modern development stack improve upon the EZDoct app I've built previously.";
+                case "sql":
+                    images = ["preview", "schema1", "schema2", "view"],
+                        heading = "Structured Query Language",
+                        subHeading = "SQL on Different Datasets and Software",
+                        desc = "Description5";
 
-                    appendProjectImages("ezdoct_django", images);
+                    appendProjectImages("sql", images);
                     addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/junh4533/masters");
+                    addGithubIcon("https://github.com/minhdang10");
+                    addWebIcon("https://drive.google.com/drive/folders/1vJ2_2jPUzA7KQoW8CR0fq12DO-Mfcjx9?usp=sharing");
 
                     break;
-                case "mediaManagement":
-                    images = ["login", "admin", "add_tv", "configure"],
-                        heading = "Baruch Media Management - Django",
-                        subHeading = "Video Streaming",
-                        desc = "This app was created for Baruch's marketing team so they can easily upload, delete, and manage Baruch's promotional videos.";
+                case "Statistics":
+                    images = ["linear", "multiple", "time_series"],
+                        heading = "Statistical Analysis",
+                        subHeading = "Simple Linear / Multiple Regression and Time Series Analyses",
+                        desc = "Desctiption6";
 
-                    appendProjectImages("media_management", images);
+                    appendProjectImages("statistics", images);
                     addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/junh4533/BCTC");
+                    addGithubIcon("https://github.com/minhdang10/statistics");
+                    addWebIcon("https://drive.google.com/drive/folders/1L3_1ylKXsupcppLSBR430PdBRZI1atzV?usp=sharing");
 
                     break;
-                case "BaruchDonorPHP":
-                    images = ["preview", "home", "view_donors", "view_pc"],
-                        heading = "Baruch Donor",
-                        subHeading = "Baruch Donor Appreciation",
-                        desc = "Baruch decided to honor their supporters by adding their names to desktop backgrounds across the computer labs. This application manages donor information and automatically generates desktop backgrounds.";
+                case "WineQuality":
+                    images = ["preview", "appendix1", "appendix2", "appendix3"],
+                        heading = "Wine Quality",
+                        subHeading = "Predicting Wine Quality Using Machine Learning Algorithms in R",
+                        desc = "Description7";
 
-                    appendProjectImages("baruch_donor", images);
+                    appendProjectImages("wine_quality", images);
                     addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/junh4533/Baruch_Donor");
+                    addGithubIcon("https://github.com/minhdang10/wine_quality");
+                    addWebIcon("https://drive.google.com/drive/folders/1K0KZgh6a7fhDvcek_8YqkoLnnAPp99-1?usp=sharing");
 
                     break;
-                case "arduinoSmarthome":
-                    images = ["entire_system", "lcd", "mockup"],
-                        heading = "Arduino Smarthome",
-                        subHeading = "All in One RFID Door Lock",
-                        desc = "During my last semester of high school, I had the opportunity to research any one programming language of my choice. Rather than limiting myself to only software development, I decided to build a smarthome system using the Arduino platform.";
+                // case "xxx--xxx":
+                //     images = ["entire_system", "lcd", "mockup"],
+                //         heading = "Arduino Smarthome",
+                //         subHeading = "All in One RFID Door Lock",
+                //         desc = "Description";
 
-                    appendProjectImages("arduino_smarthome", images);
-                    addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/junh4533/independent_study-arduino");
+                //     appendProjectImages("arduino_smarthome", images);
+                //     addText(heading, subHeading, desc);
+                //     addGithubIcon("https://github.com//independent_study-arduino");
 
-                    break;
+                //     break;
             }
         }
     );
