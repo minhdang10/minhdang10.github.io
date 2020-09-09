@@ -536,7 +536,7 @@ $(document).ready(() => {
 
                     appendProjectImages("sql", images);
                     addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/minhdang10");
+                    addGithubIcon("https://github.com/minhdang10/structured_query_language");
                     addWebIcon("https://drive.google.com/drive/folders/1vJ2_2jPUzA7KQoW8CR0fq12DO-Mfcjx9?usp=sharing");
 
                     break;
@@ -575,8 +575,8 @@ $(document).ready(() => {
                         subHeading = "Local Seafood Wholesale in Queens, NY",
                         desc = "This is one of SavingTakeouts' first client projects. In the span of two weeks, ST's development \
                         team (myself, Jun Huang, Nicholas Chen, and Ivy Tong) designed and developed this website for a local \
-                        seafood wholesale business. For the past five years, our client acquired customers through word of mouth. \
-                        This website helps them build an online presence to expand their client base and boost revenue.";
+                        seafood wholesale business. Having used to acquired customers through word of mouth, this website helps \
+                        them build an online presence to expand their client base and boost revenue.";
 
                     appendProjectImages("grand_ocean", images);
                     addText(heading, subHeading, desc);
