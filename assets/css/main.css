@@ -159,7 +159,7 @@ p, li {
   transform: translateZ(-1px) scale(2); }
 
 #hero {
-  background-image: linear-gradient(to top, #1b0b3d, #0f1242, #050522, #010108);
+  background-image: linear-gradient(to top, #3d170b, #420f0f, #220505, #080101);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
