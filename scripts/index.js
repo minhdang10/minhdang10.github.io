@@ -568,6 +568,22 @@ $(document).ready(() => {
                     addWebIcon("https://drive.google.com/drive/folders/1K0KZgh6a7fhDvcek_8YqkoLnnAPp99-1?usp=sharing");
 
                     break;
+
+                    case "GrandOcean":
+                    images = ["home", "story", "todays_selection", "footer", "checkout_modal", "checkout", "confirmation"],
+                        heading = "Grand Ocean Seafood",
+                        subHeading = "Local Seafood Wholesale in Queens, NY",
+                        desc = "This is one of SavingTakeouts' first client projects. In the span of two weeks, ST's development \
+                        team (myself, Jun Huang, Nicholas Chen, and Ivy Tong) designed and developed this website for a local \
+                        seafood wholesale business. For the past five years, our client acquired customers through word of mouth. \
+                        This website helps them build an online presence to expand their client base and boost revenue.";
+
+                    appendProjectImages("grand_ocean", images);
+                    addText(heading, subHeading, desc);
+                    addWebIcon("https://junh6.sg-host.com/");
+
+                    break;
+
                 // case "xxx--xxx":
                 //     images = ["entire_system", "lcd", "mockup"],
                 //         heading = "Arduino Smarthome",
