@@ -768,9 +768,9 @@ $(document).ready(() => {
                     images = ["hand1", "hand2", "hand3", "tensorboard", "preview"],
                         heading = "Hand Detection",
                         subHeading = "Machine Learning Algorithm using OpenCV Library",
-                        desc = "Using neural network and GCP cloud service to train the datasets, this project detects\
-                        hands from images and videos within miliseconds. Different models and datasets were evaluated to choose\
-                        the optimal one to work on, including training speed, accuracy, precision, recall and loss metrics";
+                        desc = "Using neural network and GCP cloud service to train the datasets, this project detects hands \
+                        from images and videos within miliseconds. Different models and datasets were evaluated to choose the \
+                        optimal one to work on, including training & running times, accuracy, precision, recall and loss metrics";
 
                     appendProjectImages("hand_detection", images);
                     addText(heading, subHeading, desc);
@@ -782,7 +782,9 @@ $(document).ready(() => {
                     images = ["knn", "logistic_regression", "hierarchical_clustering", "kmean_clustering", "preview"]
                     heading = "Data Mining",
                         subHeading = "Regression and Machine Learning Algorithms",
-                        desc = "Description2";
+                        desc = "Different data mining techniques are implemented in this project under different datasets, \
+                        including data wrangling, exploratory data analysis, linear regression, classification (KNN, logistic \
+                        regression, decision tree, and random forest), and clustering (K-mean and hierarchical)";
 
                     appendProjectImages("data_mining", images);
                     addText(heading, subHeading, desc);
@@ -794,7 +796,9 @@ $(document).ready(() => {
                     images = ["dimension", "kpi1", "kpi2", "kpi4", "preview"],
                         heading = "Weather and Accident Data Warehouse",
                         subHeading = "Data Warehousing / ETL Process",
-                        desc = "Description3";
+                        desc = "A data warehouse schema with ETL plan based on specific KPI's to identify the effects weather \
+                        has on car accidents with the goal of providing data to support the promotion of safe driving conditions \
+                        in New York City.";
 
                     appendProjectImages("data_warehousing", images);
                     addText(heading, subHeading, desc);
@@ -805,7 +809,9 @@ $(document).ready(() => {
                     images = ["schema", "er_diagram", "preview"],
                         heading = "Boat Rental Database Management",
                         subHeading = "E-R Diagram, Schema, SQL & VBA Applications",
-                        desc = "Description4";
+                        desc = "A database management system for Boat Rental LLC, a company that rents out top class boats \
+                        for customers to enjoy their breaks as well as maintenance service. A database is required to keep \
+                        track of the daily transactions of involving customers, rentals, staff members and services.";
 
                     appendProjectImages("database_management", images);
                     addText(heading, subHeading, desc);
@@ -817,7 +823,7 @@ $(document).ready(() => {
                     images = ["view", "schema1", "schema2", "preview"],
                         heading = "Structured Query Language",
                         subHeading = "SQL on Different Datasets and Software",
-                        desc = "Description5";
+                        desc = "SQL queries that summarize useful key information of the data. Different type of SQL were written.";
 
                     appendProjectImages("sql", images);
                     addText(heading, subHeading, desc);
@@ -829,7 +835,7 @@ $(document).ready(() => {
                     images = ["linear", "multiple", "time_series"],
                         heading = "Statistical Analysis",
                         subHeading = "Simple Linear / Multiple Regression and Time Series Analyses",
-                        desc = "Desctiption6";
+                        desc = "The statistical Analyses on regression and time series to identify trends related to each datasets.";
 
                     appendProjectImages("statistics", images);
                     addText(heading, subHeading, desc);
@@ -841,8 +847,12 @@ $(document).ready(() => {
                     images = ["histogram", "boxplots", "appendix2", "appendix3", "preview"],
                         heading = "Wine Quality",
                         subHeading = "Predicting Wine Quality Using Machine Learning Algorithms in R",
-                        desc = "Description7";
-
+                        desc = "The goal is to take the wine dataset (comprised of variables which are physicochemical properties\
+                        of the wine) and predict the quality of wine on a numeric scale of 0-10 using several learning algorithms. \
+                        The subsequent tests and conclusions will best serve the wine producers in this region who may wish to \
+                        increase their wine sales by consistently exporting higher qualities of wine rather than low ones. The \
+                        methodology represents this problem as one of numeric prediction and one of classification. ";
+                        
                     appendProjectImages("wine_quality", images);
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/wine_quality");
