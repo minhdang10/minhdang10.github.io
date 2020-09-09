@@ -768,7 +768,9 @@ $(document).ready(() => {
                     images = ["hand1", "hand2", "hand3", "tensorboard", "preview"],
                         heading = "Hand Detection",
                         subHeading = "Machine Learning Algorithm using OpenCV Library",
-                        desc = "Description1";
+                        desc = "Using neural network and GCP cloud service to train the datasets, this project detects\
+                        hands from images and videos within miliseconds. Different models and datasets were evaluated to choose\
+                        the optimal one to work on, including training speed, accuracy, precision, recall and loss metrics";
 
                     appendProjectImages("hand_detection", images);
                     addText(heading, subHeading, desc);
