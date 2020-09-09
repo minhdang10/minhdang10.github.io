@@ -19,13 +19,13 @@ $(document).ready(() => {
                 }
             },
             "color": {
-                "value": ["#5f5fc2", "#250a63"]
+                "value": ["#c25f5f", "#631f0a"]
             },
             "shape": {
                 "type": "circle",
                 "stroke": {
                     "width": 0,
-                    "color": ["#5f5fc2", "#250a63"]
+                    "color": ["#c25f5f", "#631f0a"]
                 },
                 "polygon": {
                     "nb_sides": 5
@@ -59,7 +59,7 @@ $(document).ready(() => {
             "line_linked": {
                 "enable": true,
                 "distance": 300,
-                "color": "#0C0E38",
+                "color": "#380c0c",
                 "opacity": .3,
                 "width": 1.5
             },
@@ -136,7 +136,7 @@ $(document).ready(() => {
                 "type": "circle",
                 "stroke": {
                     "width": 0,
-                    "color": ["#5f5fc2", "#250a63"]
+                    "color": ["#c25f5f", "#631f0a"]
                 },
                 "polygon": {
                     "nb_sides": 5
