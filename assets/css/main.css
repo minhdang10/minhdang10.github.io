@@ -212,11 +212,11 @@ p, li {
   list-style-type: none;
   line-height: 2.5em; }
 
-#about #paddle-pic {
-  width: 35%; }
+#about #piano-pic {
+  width: 25%; }
 
 @media only screen and (min-width: 1200px) {
-  #about #paddle-pic {
+  #about #piano-pic {
     width: 75%; } }
 
 #skills #circle-img {
