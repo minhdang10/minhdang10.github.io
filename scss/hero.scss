@@ -2,10 +2,11 @@
 @import 'mixins';
 
 #hero {
-    background-image: $star-bg;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/assets/images/newyork.jpg") center / cover no-repeat;
+    // background-image: url("/assets/images/newyork.jpg");
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
     min-height: 100vh;
 
     .container {

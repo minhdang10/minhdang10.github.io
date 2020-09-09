@@ -159,10 +159,7 @@ p, li {
   transform: translateZ(-1px) scale(2); }
 
 #hero {
-  background-image: linear-gradient(to top, #3d170b, #420f0f, #220505, #080101);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/images/newyork.jpg") center/cover no-repeat;
   min-height: 100vh; }
   #hero .container {
     position: relative;
