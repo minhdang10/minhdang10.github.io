@@ -789,7 +789,7 @@ $(document).ready(() => {
 
                     break;
                 case "DataWarehousing":
-                    images = ["dimension", "kpi1", "kpi2", "kpi3", "kpi4", "preview"],
+                    images = ["dimension", "kpi1", "kpi2", "kpi4", "preview"],
                         heading = "Weather and Accident Data Warehouse",
                         subHeading = "Data Warehousing / ETL Process",
                         desc = "Description3";
