@@ -186,18 +186,6 @@ p, li {
     position: absolute;
     bottom: 3.5em;
     align-self: center; }
-  #hero #starfield, #hero #sagittarius {
-    width: 100%; }
-  #hero #starfield {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 500; }
-  #hero #sagittarius {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 500; }
 
 #about #particles-about {
   top: 50%;
