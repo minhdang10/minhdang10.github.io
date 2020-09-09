@@ -765,7 +765,7 @@ $(document).ready(() => {
 
             switch (e.target.id.toString()) {
                 case "HandDetection":
-                    images = ["fast-rcnn", "faster-rcnn", "hand1", "hand2", "hand3", "preview", "tensorboard"],
+                    images = ["hand1", "hand2", "hand3", "preview", "tensorboard"],
                         heading = "Hand Detection",
                         subHeading = "Machine Learning Algorithm using OpenCV Library",
                         desc = "Description1";
@@ -777,7 +777,7 @@ $(document).ready(() => {
 
                     break;
                 case "DataMining":
-                    images = ["hierarchical_clustering", "kmean_clustering", "knn", "logistic_regression", "preview", "order_video", "order_video2", "queue", "portal", "dashboard", "customize", "reports"]
+                    images = ["hierarchical_clustering", "kmean_clustering", "knn", "logistic_regression", "preview"]
                     heading = "Data Mining",
                         subHeading = "Regression and Machine Learning Algorithms",
                         desc = "Description2";
