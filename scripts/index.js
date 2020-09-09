@@ -765,7 +765,7 @@ $(document).ready(() => {
 
             switch (e.target.id.toString()) {
                 case "HandDetection":
-                    images = ["hand1", "hand2", "hand3", "preview", "tensorboard"],
+                    images = ["hand1", "hand2", "hand3", "tensorboard", "preview"],
                         heading = "Hand Detection",
                         subHeading = "Machine Learning Algorithm using OpenCV Library",
                         desc = "Description1";
@@ -777,7 +777,7 @@ $(document).ready(() => {
 
                     break;
                 case "DataMining":
-                    images = ["hierarchical_clustering", "kmean_clustering", "knn", "logistic_regression", "preview"]
+                    images = ["knn", "logistic_regression", "hierarchical_clustering", "kmean_clustering", "preview"]
                     heading = "Data Mining",
                         subHeading = "Regression and Machine Learning Algorithms",
                         desc = "Description2";
@@ -789,7 +789,7 @@ $(document).ready(() => {
 
                     break;
                 case "DataWarehousing":
-                    images = ["dimension", "kpi1", "kpi2", "kpi3", "kpi4"],
+                    images = ["dimension", "kpi1", "kpi2", "kpi3", "kpi4", "preview"],
                         heading = "Weather and Accident Data Warehouse",
                         subHeading = "Data Warehousing / ETL Process",
                         desc = "Description3";
@@ -800,7 +800,7 @@ $(document).ready(() => {
 
                     break;
                 case "DatabaseManagement":
-                    images = ["er_diagram", "preview", "schema"],
+                    images = ["schema", "er_diagram", "preview"],
                         heading = "Boat Rental Database Management",
                         subHeading = "E-R Diagram, Schema, SQL & VBA Applications",
                         desc = "Description4";
@@ -812,7 +812,7 @@ $(document).ready(() => {
 
                     break;
                 case "sql":
-                    images = ["preview", "schema1", "schema2", "view"],
+                    images = ["view", "schema1", "schema2", "preview"],
                         heading = "Structured Query Language",
                         subHeading = "SQL on Different Datasets and Software",
                         desc = "Description5";
@@ -836,7 +836,7 @@ $(document).ready(() => {
 
                     break;
                 case "WineQuality":
-                    images = ["preview", "appendix1", "appendix2", "appendix3"],
+                    images = ["appendix1", "appendix2", "appendix3", "preview"],
                         heading = "Wine Quality",
                         subHeading = "Predicting Wine Quality Using Machine Learning Algorithms in R",
                         desc = "Description7";
