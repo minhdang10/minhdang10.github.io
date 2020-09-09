@@ -836,7 +836,7 @@ $(document).ready(() => {
 
                     break;
                 case "WineQuality":
-                    images = ["appendix1", "appendix2", "appendix3", "preview"],
+                    images = ["histogram", "boxplots", "appendix2", "appendix3", "preview"],
                         heading = "Wine Quality",
                         subHeading = "Predicting Wine Quality Using Machine Learning Algorithms in R",
                         desc = "Description7";
