@@ -483,7 +483,7 @@ $(document).ready(() => {
                         across US facilities. Various metrics were used to evaluate the model and to alert and interact with \
                         clients regarding timely reported anomalies on the interactive dashboard.";
 
-                    appendProjectImages("hand_detection", images);
+                    appendProjectImages("anomalies_detection", images);
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/anomalies_detection");
                     addWebIcon("https://drive.google.com/drive/folders/1jbllg6S8RTJSK-aENn1dda3-AAV8EHUW?usp=sharing");
