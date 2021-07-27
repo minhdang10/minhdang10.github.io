@@ -474,7 +474,7 @@ $(document).ready(() => {
 
             switch (e.target.id.toString()) {
                 case "AnomaliesDetection":
-                    images = ["anomalies1", "anomalies2", "dashboard", "preview"],
+                    images = ["anomalies1", "dashboard", "anomalies2", "preview"],
                         heading = "Anomalies Detection",
                         subHeading = "Time Series Regression using Prophet Library",
                         desc = "With Prophet library in Python and SQL queries from SendTech databases from Snowflake, this \
