@@ -475,8 +475,8 @@ $(document).ready(() => {
             switch (e.target.id.toString()) {
                 case "AnomaliesDetection":
                     images = ["anomalies1", "anomalies2", "dashboard", "preview"],
-                        heading = "Hand Detection",
-                        subHeading = "Machine Learning Algorithm using OpenCV Library",
+                        heading = "Anomalies Detection",
+                        subHeading = "Time Series Regression using Prophet Library",
                         desc = "With Prophet library in Python and SQL queries from SendTech databases from Snowflake, this \
                         project detects anomalies using time series regression modeling in terms of measurements of packages \
                         (masses, dimensions, densities, volumes) and number of processed parcels within a specific time frame \
