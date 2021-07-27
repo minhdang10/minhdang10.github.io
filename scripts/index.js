@@ -473,6 +473,22 @@ $(document).ready(() => {
                 desc;
 
             switch (e.target.id.toString()) {
+                case "AnomaliesDetection":
+                    images = ["anomalies1", "anomalies2", "dashboard", "preview"],
+                        heading = "Hand Detection",
+                        subHeading = "Machine Learning Algorithm using OpenCV Library",
+                        desc = "With Prophet library in Python and SQL queries from SendTech databases from Snowflake, this \
+                        project detects anomalies using time series regression modeling in terms of measurements of packages \
+                        (masses, dimensions, densities, volumes) and number of processed parcels within a specific time frame \
+                        across US facilities. Various metrics were used to evaluate the model and to alert and interact with \
+                        clients regarding timely reported anomalies on the interactive dashboard.";
+
+                    appendProjectImages("hand_detection", images);
+                    addText(heading, subHeading, desc);
+                    addGithubIcon("https://github.com/minhdang10/anomalies_detection");
+                    addWebIcon("https://drive.google.com/drive/folders/1jbllg6S8RTJSK-aENn1dda3-AAV8EHUW?usp=sharing");
+
+                    break;
                 case "HandDetection":
                     images = ["hand1", "hand2", "hand3", "tensorboard", "preview"],
                         heading = "Hand Detection",
