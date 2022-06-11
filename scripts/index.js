@@ -473,6 +473,19 @@ $(document).ready(() => {
                 desc;
 
             switch (e.target.id.toString()) {
+                case "SocialBuzz":
+                    images = ["content", "barh", "pie"],
+                        heading = "Social Buzz Content Popularity",
+                        subHeading = "Data Merging, Analysis and Visualization with Python",
+                        desc = "With the use of Python and its pandas, matplotlib and numpy library, this project forms a final \
+                        dataset from multiple ones to serve Social Buzz's request of evaluating what 5 contents receive the \
+                        most attention; then ploting necessary bar and pie chart to visualize the findings";
+
+                        appendProjectImages("social_buzz_content", images);
+                        addText(heading, subHeading, desc);
+                        addGithubIcon("https://github.com/minhdang10/social_buzz_content");
+                        addWebIcon("https://drive.google.com/drive/folders/1AwiWLak7IHG4ll8xCdDNHVm6WubRnwn-?usp=sharing");
+    
                 case "AnomaliesDetection":
                     images = ["anomalies2", "dashboard", "anomalies1", "PowerBI", "preview"],
                         heading = "Anomalies Detection",
