@@ -485,6 +485,8 @@ $(document).ready(() => {
                         addText(heading, subHeading, desc);
                         addGithubIcon("https://github.com/minhdang10/social_buzz_content");
                         addWebIcon("https://drive.google.com/drive/folders/1AwiWLak7IHG4ll8xCdDNHVm6WubRnwn-?usp=sharing");
+
+                        break;
     
                 case "AnomaliesDetection":
                     images = ["anomalies2", "dashboard", "anomalies1", "PowerBI", "preview"],
