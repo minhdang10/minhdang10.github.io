@@ -473,6 +473,21 @@ $(document).ready(() => {
                 desc;
 
             switch (e.target.id.toString()) {
+                case "PowerCo":
+                    images = ["utilities"],
+                        heading = "PowerCo Utilities Customer Churn",
+                        subHeading = "Data Analysis and Random Forest Predictive Modeling with Python",
+                        desc = "This project performs the EDA process on the client and price datasets in a specific period \
+                        about utilities spending, then create a Random Forest model to predict the number of churned customers; \
+                        plus further feature engineering";
+
+                        appendProjectImages("powerco_utilities", images);
+                        addText(heading, subHeading, desc);
+                        addGithubIcon("https://github.com/minhdang10/powerco_utilities");
+                        addWebIcon("https://drive.google.com/drive/folders/12ci7MaN2YsydugYjx4tm-xSBkZCvTrY-?usp=sharing");
+
+                    break;
+
                 case "SocialBuzz":
                     images = ["content", "barh", "pie"],
                         heading = "Social Buzz Content Popularity",
