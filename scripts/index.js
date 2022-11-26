@@ -473,13 +473,28 @@ $(document).ready(() => {
                 desc;
 
             switch (e.target.id.toString()) {
+                case "MTA":
+                    images = ["mta"],
+                        heading = "MTA Access-A-Ride Trip Analysis",
+                        subHeading = "Tabular Data Analysis with Python",
+                        desc = "This project, using the AAR data from MTA, provides the descriptive statistics and analysis of \
+                        trips based on categories of service, zip codes, and boroughs of New York City for better management, \
+                        as well as the planning of schedule and cost.";
+
+                        appendProjectImages("mta", images);
+                        addText(heading, subHeading, desc);
+                        addGithubIcon("https://github.com/minhdang10/mta");
+                        addWebIcon("https://drive.google.com/drive/folders/1yyljoN0fhp-pcsoetABy_8qU6BvAE8LV?usp=share_link");
+
+                    break;
+
                 case "PowerCo":
                     images = ["utilities"],
                         heading = "PowerCo Utilities Customer Churn",
                         subHeading = "Data Analysis and Random Forest Predictive Modeling with Python",
                         desc = "This project performs the EDA process on the client and price datasets in a specific period \
                         about utilities spending, then create a Random Forest model to predict the number of churned customers; \
-                        plus further feature engineering";
+                        plus further feature engineering.";
 
                         appendProjectImages("powerco_utilities", images);
                         addText(heading, subHeading, desc);
@@ -494,7 +509,7 @@ $(document).ready(() => {
                         subHeading = "Data Merging, Analysis and Visualization with Python",
                         desc = "With the use of Python and its pandas, matplotlib and numpy library, this project forms a final \
                         dataset from multiple ones to serve Social Buzz's request of evaluating what 5 contents receive the \
-                        most attention; then ploting necessary bar and pie chart to visualize the findings";
+                        most attention; then ploting necessary bar and pie chart to visualize the findings.";
 
                         appendProjectImages("social_buzz_content", images);
                         addText(heading, subHeading, desc);
