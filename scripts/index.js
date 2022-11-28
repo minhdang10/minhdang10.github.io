@@ -485,8 +485,21 @@ $(document).ready(() => {
                         addText(heading, subHeading, desc);
                         addGithubIcon("https://github.com/minhdang10/mta");
                         addWebIcon("https://drive.google.com/drive/folders/1yyljoN0fhp-pcsoetABy_8qU6BvAE8LV?usp=share_link");
-
                     break;
+
+                case "AdClicks":
+                    images = ["graph","preview"],
+                        heading = "Ad Clicks Prediction",
+                        subHeading = "Data Analysis and Random Forest Predictive Modeling with Python",
+                        desc = "This project uses the website traffic data of a company to predict whether customers will click \
+                        on an ad or not. Random forest, decision trees, and Naive Bayes methods were used.";
+
+                        appendProjectImages("predict_ad_click", images);
+                        addText(heading, subHeading, desc);
+                        addGithubIcon("https://github.com/minhdang10/predict_ad_clicks");
+                        addWebIcon("https://drive.google.com/drive/folders/1ij7qnzo35Zp-DYdww7vpjehCOFcqGSiN?usp=share_link");
+                    break;
+    
 
                 case "PowerCo":
                     images = ["utilities"],
@@ -500,7 +513,6 @@ $(document).ready(() => {
                         addText(heading, subHeading, desc);
                         addGithubIcon("https://github.com/minhdang10/powerco_utilities");
                         addWebIcon("https://drive.google.com/drive/folders/12ci7MaN2YsydugYjx4tm-xSBkZCvTrY-?usp=sharing");
-
                     break;
 
                 case "SocialBuzz":
@@ -515,7 +527,6 @@ $(document).ready(() => {
                         addText(heading, subHeading, desc);
                         addGithubIcon("https://github.com/minhdang10/social_buzz_content");
                         addWebIcon("https://drive.google.com/drive/folders/1AwiWLak7IHG4ll8xCdDNHVm6WubRnwn-?usp=sharing");
-
                     break;
     
                 case "AnomaliesDetection":
@@ -532,8 +543,8 @@ $(document).ready(() => {
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/anomalies_detection");
                     addWebIcon("https://drive.google.com/drive/folders/1jbllg6S8RTJSK-aENn1dda3-AAV8EHUW?usp=sharing");
-
                     break;
+                
                 case "HandDetection":
                     images = ["hand1", "hand2", "hand3", "tensorboard", "preview"],
                         heading = "Hand Detection",
@@ -546,8 +557,8 @@ $(document).ready(() => {
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/hand-detection-tracking");
                     addWebIcon("https://drive.google.com/drive/folders/1pNtUs8Nteg_OAot8piNi_c0yhsuZogix?usp=sharing");
-
                     break;
+                
                 case "DataMining":
                     images = ["knn", "logistic_regression", "hierarchical_clustering", "kmean_clustering", 
                     "linear", "multiple", "time_series", "preview"]
@@ -562,8 +573,8 @@ $(document).ready(() => {
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/data_mining");
                     addWebIcon("https://drive.google.com/drive/folders/14XHoSZ9x1gyvI6FvqS9c4vxgL-UGwu2s?usp=sharing");
-
                     break;
+                
                 case "DataWarehousing":
                     images = ["dimension", "kpi1", "kpi2", "kpi4", "preview"],
                         heading = "Weather and Accident Data Warehouse",
@@ -575,8 +586,8 @@ $(document).ready(() => {
                     appendProjectImages("data_warehousing", images);
                     addText(heading, subHeading, desc);
                     addWebIcon("https://drive.google.com/drive/folders/1Vy0eQ-_uCF0cmfyoe__tD3pE8hBmbLJJ?usp=sharing");
-
                     break;
+                
                 case "DatabaseManagement":
                     images = ["schema", "er_diagram", "preview"],
                         heading = "Boat Rental Database Management",
@@ -589,8 +600,8 @@ $(document).ready(() => {
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/boat_rental");
                     addWebIcon("https://drive.google.com/drive/folders/1X_MDUNR-mcOQEwmLbJA33mZ_3BPSwh4R?usp=sharing");
-
                     break;
+                
                 case "sql":
                     images = ["view", "schema1", "schema2", "preview"],
                         heading = "Structured Query Language",
@@ -601,20 +612,8 @@ $(document).ready(() => {
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/structured_query_language");
                     addWebIcon("https://drive.google.com/drive/folders/1vJ2_2jPUzA7KQoW8CR0fq12DO-Mfcjx9?usp=sharing");
-
                     break;
-                // case "Statistics":
-                //     images = ["linear", "multiple", "time_series"],
-                //         heading = "Statistical Analysis",
-                //         subHeading = "Simple Linear / Multiple Regression and Time Series Analyses",
-                //         desc = "The statistical Analyses on regression and time series to identify trends related to each datasets.";
-
-                //     appendProjectImages("statistics", images);
-                //     addText(heading, subHeading, desc);
-                //     addGithubIcon("https://github.com/minhdang10/statistics");
-                //     addWebIcon("https://drive.google.com/drive/folders/1L3_1ylKXsupcppLSBR430PdBRZI1atzV?usp=sharing");
-
-                //     break;
+                
                 case "WineQuality":
                     images = ["histogram", "boxplots", "appendix2", "appendix3", "preview"],
                         heading = "Wine Quality",
@@ -629,10 +628,9 @@ $(document).ready(() => {
                     addText(heading, subHeading, desc);
                     addGithubIcon("https://github.com/minhdang10/wine_quality");
                     addWebIcon("https://drive.google.com/drive/folders/1K0KZgh6a7fhDvcek_8YqkoLnnAPp99-1?usp=sharing");
-
                     break;
 
-                    case "GrandOcean":
+                case "GrandOcean":
                     images = ["home", "story", "todays_selection", "footer", "checkout_modal", "checkout", "confirmation"],
                         heading = "Grand Ocean Seafood",
                         subHeading = "Local Seafood Wholesale in Queens, NY",
@@ -644,7 +642,6 @@ $(document).ready(() => {
                     appendProjectImages("grand_ocean", images);
                     addText(heading, subHeading, desc);
                     addWebIcon("https://junh6.sg-host.com/");
-
                     break;
 
                 // case "xxx--xxx":
