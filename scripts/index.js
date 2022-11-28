@@ -490,7 +490,7 @@ $(document).ready(() => {
                 case "AdClicks":
                     images = ["graph","preview"],
                         heading = "Ad Clicks Prediction",
-                        subHeading = "Data Analysis and Random Forest Predictive Modeling with Python",
+                        subHeading = "Data Analysis and Predictive Modeling with Python",
                         desc = "This project uses the website traffic data of a company to predict whether customers will click \
                         on an ad or not. Random forest, decision trees, and Naive Bayes methods were used.";
 
