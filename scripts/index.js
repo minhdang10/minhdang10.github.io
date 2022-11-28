@@ -549,10 +549,12 @@ $(document).ready(() => {
 
                     break;
                 case "DataMining":
-                    images = ["knn", "logistic_regression", "hierarchical_clustering", "kmean_clustering", "preview"]
-                    heading = "Data Mining",
-                        subHeading = "Regression and Machine Learning Algorithms",
-                        desc = "Different data mining techniques are implemented in this project under different datasets, \
+                    images = ["knn", "logistic_regression", "hierarchical_clustering", "kmean_clustering", 
+                    "linear", "multiple", "time_series", "preview"]
+                    heading = "Statistical Analysis & Data Mining",
+                        subHeading = "Regressions, Time Series Analysis and Machine Learning Algorithms",
+                        desc = "The statistical analyses on regression and time series to identify trends related to each datasets.\
+                        Different data mining techniques are implemented in this project under different datasets, \
                         including data wrangling, exploratory data analysis, linear regression, classification (KNN, logistic \
                         regression, decision tree, and random forest), and clustering (K-mean and hierarchical)";
 
@@ -601,18 +603,18 @@ $(document).ready(() => {
                     addWebIcon("https://drive.google.com/drive/folders/1vJ2_2jPUzA7KQoW8CR0fq12DO-Mfcjx9?usp=sharing");
 
                     break;
-                case "Statistics":
-                    images = ["linear", "multiple", "time_series"],
-                        heading = "Statistical Analysis",
-                        subHeading = "Simple Linear / Multiple Regression and Time Series Analyses",
-                        desc = "The statistical Analyses on regression and time series to identify trends related to each datasets.";
+                // case "Statistics":
+                //     images = ["linear", "multiple", "time_series"],
+                //         heading = "Statistical Analysis",
+                //         subHeading = "Simple Linear / Multiple Regression and Time Series Analyses",
+                //         desc = "The statistical Analyses on regression and time series to identify trends related to each datasets.";
 
-                    appendProjectImages("statistics", images);
-                    addText(heading, subHeading, desc);
-                    addGithubIcon("https://github.com/minhdang10/statistics");
-                    addWebIcon("https://drive.google.com/drive/folders/1L3_1ylKXsupcppLSBR430PdBRZI1atzV?usp=sharing");
+                //     appendProjectImages("statistics", images);
+                //     addText(heading, subHeading, desc);
+                //     addGithubIcon("https://github.com/minhdang10/statistics");
+                //     addWebIcon("https://drive.google.com/drive/folders/1L3_1ylKXsupcppLSBR430PdBRZI1atzV?usp=sharing");
 
-                    break;
+                //     break;
                 case "WineQuality":
                     images = ["histogram", "boxplots", "appendix2", "appendix3", "preview"],
                         heading = "Wine Quality",
