@@ -473,6 +473,20 @@ $(document).ready(() => {
                 desc;
 
             switch (e.target.id.toString()) {
+                case "CCFraud":
+                    images = ["cc_fraud","dash","roc","cf"],
+                        heading = "Credit Card Fraud Detection",
+                        subHeading = "Data Analysis and Predictive Modeling with Python",
+                        desc = "This project, using the credit card customers' transactions, provides the descriptive statistics of them \
+                        and predict/label fraud transactions using Machine Learning algorithms:  Decision Tree, Random Forest, KNN, Logistic \
+                        Regression, XGBoost. Different problematic transactions including reversal and multi-swipe are also analyzed.";
+
+                        appendProjectImages("cc_fraud", images);
+                        addText(heading, subHeading, desc);
+                        addGithubIcon("https://github.com/minhdang10/fraud_detection");
+                        addWebIcon("https://drive.google.com/drive/folders/13yVj9i3WLeqE6NyjKv47oO2RlE8Brml7?usp=sharing");
+                    break;
+
                 case "PowerBI":
                     images = ["power_bi","ecom","product","real_estate","retail"],
                         heading = "Power BI Data Visualization Dashboards",
