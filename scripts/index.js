@@ -473,6 +473,17 @@ $(document).ready(() => {
                 desc;
 
             switch (e.target.id.toString()) {
+                case "PowerBI":
+                    images = ["power_bi","ecom","product","real_estate","retail"],
+                        heading = "Power BI Data Visualization Dashboards",
+                        subHeading = "Data Visualization with Power BI",
+                        desc = "This consists some data visualization projects: e-Commerce, Real Estate, Retail, HR, and Operation.";
+
+                        appendProjectImages("power_bi", images);
+                        addText(heading, subHeading, desc);
+                        addWebIcon("https://drive.google.com/drive/folders/1TBQAx2VeTftUNgXbE6eoQffinY_Lgzoi?usp=sharing");
+                    break;
+
                 case "MTA":
                     images = ["mta"],
                         heading = "MTA Access-A-Ride Trip Analysis",
